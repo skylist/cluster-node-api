@@ -22,4 +22,4 @@ const runWorkerProcess = async () => {
 }
 
 if (cluster.isPrimary) runPrimaryProcess()
-else runWorkerProcess()
+else runWorkerProcess() 
